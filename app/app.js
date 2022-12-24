@@ -12,6 +12,6 @@ app.get("/", (req, res, next) => {
   );
 });
 
-app.get("/cdfs", (req, res, next) => {
-  res.json(["Gabriel Fróes", "Vanessa Weber"]);
+app.get("/gatinhos", (req, res, next) => {
+  res.json(["Laruska", "Saladin", "Quica", "Chico", "Marie"]);
 });
