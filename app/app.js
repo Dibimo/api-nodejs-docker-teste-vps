@@ -15,3 +15,9 @@ app.get("/", (req, res, next) => {
 app.get("/gatinhos", (req, res, next) => {
   res.json(["Laruska", "Saladin", "Quica", "Chico", "Marie"]);
 });
+
+
+
+app.get("/momo", (req, res, next) => {
+  res.json("Momo é lindona <3");
+});
